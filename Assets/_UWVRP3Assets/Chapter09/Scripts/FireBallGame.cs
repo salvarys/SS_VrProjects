@@ -7,6 +7,7 @@ public class FireBallGame : MonoBehaviour
     public Transform shootAt;
     public Transform shooter0;
     public Transform shooter1;
+    public Transform shooter2;
     public float speed = 5.0f;
     public float interval = 3.0f;
 
@@ -28,7 +29,7 @@ public class FireBallGame : MonoBehaviour
         if (pool == null)
             Debug.LogError("Requires ObjectPooler component");
 
-        if (shooter0 == null || shooter1 == null)
+        if (shooter0 == null || shooter1 == null || shooter2 == null)
             Debug.LogError("Requires shooter transforms");
 
         Time.fixedDeltaTime = 0.001f;
@@ -77,12 +78,16 @@ public class FireBallGame : MonoBehaviour
     void OnBeatDetected()
     {
         if (Random.value < 0.5f)
-        {
-            ShootBall(shooter0);
-        }
-        else
+       {
+           ShootBall(shooter0);
+       }
+        else if (Random.value < 0.5f)
         {
             ShootBall(shooter1);
+        }
+        if (Random.value < 0.5f)
+        {
+           ShootBall(shooter2);
         }
     }
 }
