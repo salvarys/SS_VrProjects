@@ -543,8 +543,8 @@ MonoBehaviour:
   shooter0: {fileID: 420356423}
   shooter1: {fileID: 146658861}
   shooter2: {fileID: 2037691227}
-  speed: 5
-  interval: 3
+  speed: 3
+  interval: 1
 --- !u!114 &753839927
 MonoBehaviour:
   m_ObjectHideFlags: 0
