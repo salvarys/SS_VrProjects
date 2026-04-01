@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -780,9 +780,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.31388843, y: 0.07225331, z: -0.00031019468}
+    m_Target: {x: -0.32429, y: 0.07594, z: -0.0264}
     speed: 2
-    m_Value: {x: -0.31388843, y: 0.07225331, z: -0.00031019468}
+    m_Value: {x: -0.32429, y: 0.07594, z: -0.0264}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -828,13 +828,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15835465, y: -0.6709248, z: 0.14991187, w: -0.7088404}
+    m_Target: {x: -0.26248854, y: -0.45051995, z: 0.14054675, w: -0.8417407}
     speed: 2
-    m_Value: {x: -0.15940608, y: -0.67065066, z: 0.15090734, w: -0.70855093}
+    m_Value: {x: -0.26668003, y: -0.4473257, z: 0.14176306, w: -0.8418341}
   m_Size:
-    m_Target: 1.5526166
+    m_Target: 0.37269068
     speed: 2
-    m_Value: 1.6257765
+    m_Value: 0.37414634
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -899,9 +899,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b8870000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 02cfffff40d1ffff34d2ffff54d6ffffacd8ffffb6d9fffff6e8ffffb0edffff64efffff42f0ffff54f2ffff7ef4ffffb2f6fffffaf8ffff04fbffff
+      m_ExpandedIDs: 64e3ffff88e4ffffdce6ffff04fbffff946d0000f89000002e910000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1111,7 +1111,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Final VR Project
+    - Assets/Final VR Project/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1121,16 +1121,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets/Final VR Project
+  - Assets/Final VR Project/Scripts
   m_LastFoldersGridSize: 61
   m_LastProjectPath: C:\Users\skysa\OneDrive\Documents\GitHub\SS_VrProjects
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 554.6639}
-    m_SelectedIDs: 20700000
-    m_LastClickedID: 28704
-    m_ExpandedIDs: 00000000326e0000346e0000366e0000386e000000700000027000000470000006700000087000002070000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 429.6679}
+    m_SelectedIDs: a2700000
+    m_LastClickedID: 28834
+    m_ExpandedIDs: 00000000326e0000346e0000366e00003a6e00003c6e00003e6e0000406e0000426e0000446e00004470000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1158,7 +1158,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000326e0000346e0000366e0000386e0000
+    m_ExpandedIDs: 00000000326e0000346e0000366e0000386e00003a6e00003c6e00003e6e0000406e0000426e0000446e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
