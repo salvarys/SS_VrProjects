@@ -2681,6 +2681,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2061066389}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 0dc266068eea9434b8ba52d2c9837f1e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2061066390}
   m_SourcePrefab: {fileID: 100100000, guid: 0dc266068eea9434b8ba52d2c9837f1e, type: 3}
 --- !u!1 &2061066388 stripped
 GameObject:
@@ -2710,6 +2714,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6606501483488557099, guid: 0dc266068eea9434b8ba52d2c9837f1e, type: 3}
+--- !u!65 &2061066390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061066388}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.009999995, y: 0.2814889, z: 0.009999996}
+  m_Center: {x: 0, y: 0.09037235, z: 0}
 --- !u!1 &2082823632
 GameObject:
   m_ObjectHideFlags: 0
@@ -2845,6 +2870,11 @@ PrefabInstance:
     - target: {fileID: 3190153012966572273, guid: fc10b07c1570b614ea8d8bdc074f793c,
         type: 3}
       propertyPath: m_Name
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190153012966572273, guid: fc10b07c1570b614ea8d8bdc074f793c,
+        type: 3}
+      propertyPath: m_TagString
       value: Ball
       objectReference: {fileID: 0}
     - target: {fileID: 6772471291491992066, guid: fc10b07c1570b614ea8d8bdc074f793c,
