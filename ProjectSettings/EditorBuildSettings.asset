@@ -8,11 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/URP Examples/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
+  - enabled: 0
     path: Assets/_UWVRP3Assets/Chapter03/Scenes/Scene03-01-XRRig.unity
     guid: 47c37fa86ee92504692b0f64d2767f71
+  - enabled: 1
+    path: Assets/Final VR Project/Final.unity
+    guid: abf3d53b4a6ecca49b61f5869b866a56
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 43dc5518fb25c8c4293763a08585186e,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 124da55d7f629364186c64e2c3d50be5,
       type: 2}
+  m_UseUCBPForAssetBundles: 0
